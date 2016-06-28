@@ -331,9 +331,9 @@ load_environment () {
 	install_google-earth
 }
 
-cmd_init="$BINDIR/envsync-init"
-cmd_store="$BINDIR/envsync-store"
-cmd_load="$BINDIR/envsync-load"
+cmd_init="$BINDIR/envsync-init.sh"
+cmd_store="$BINDIR/envsync-store.sh"
+cmd_load="$BINDIR/envsync-load.sh"
 echo ""
 echo "*******************************************************"
 echo "*   Store or load Ubuntu environment.                 *"
