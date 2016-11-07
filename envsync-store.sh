@@ -194,7 +194,7 @@ install_general_tools () {
 	$aptdep xserver-xorg-dev
 	$aptdep unity-control-center
 	$aptins xserver-xorg-dev
-	$aptins fcitx-googlepinyin
+	$aptins fcitx-googlepinyin mit-scheme
 }
 
 storeconf_vim () {
